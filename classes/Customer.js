@@ -1,3 +1,4 @@
+const { Cart } = require('./Cart')
 class Customer {
     constructor(name, email, shippingAddress){
         this.name = name;
@@ -8,4 +9,8 @@ class Customer {
 addToOrderHistory(cart){
     this.orderHistory.push(cart)
 }
+}
+
+module.exports{
+    Customer;
 }
