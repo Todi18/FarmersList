@@ -1,6 +1,6 @@
 // Import Classes Here
-
-
+const Product = require('./classes/Product')
+let pro = new test.Product('Toussaint',10,'text') 
 
 
 
